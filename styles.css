@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: #f5fac1;
+    height: 100vh;
+}
+
+.game-heading {
+    color: #000000;
+    text-align: center;
+    font-family: Sans-Serif;
+    font-size: 3rem;
+}
+
+.game-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.choose-option-heading {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.win {
+    color: white;
+    padding: 5px;
+    background-color: green;
+}
+
+.lose {
+    color: white;
+    padding: 5px;
+    background-color: red;
+}
+
+.draw {
+    color: black;
+    padding: 5px;
+    background-color: yellow;
+}
